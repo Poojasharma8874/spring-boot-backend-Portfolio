@@ -6,14 +6,20 @@ It demonstrates how to create REST APIs using Spring Boot and how to run the app
 ---
 
 ##  Project Structure
-spring-boot-backend-Portfolio/
-├── src/
-│ ├── main/
-│ │ ├── java/        # Java source code
-│ │ └── resources/   # Application properties & static files
-│ └── test/          # Unit tests
-├── pom.xml          # Maven dependencies
-└── README.md        # Project documentation
+portfolioBackend/      ← root directory
+├─ .gitignore          ← Git ignore rules
+├─ README.md           ← project description
+├─ pom.xml             ← Maven project file
+├─ mvnw                ← Maven wrapper script (optional)
+├─ mvnw.cmd            ← Windows Maven wrapper script (optional)
+├─ src/                ← source code
+│   ├─ main/
+│   │   ├─ java/
+│   │   └─ resources/
+│   └─ test/
+├─ target/             ← build output (ignored in Git)
+└─ .mvn/               ← Maven wrapper (usually ignored)
+
 
 
 ## ⚙️ Tech Stack
