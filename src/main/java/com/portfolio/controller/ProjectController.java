@@ -18,7 +18,8 @@ import com.portfolio.service.ProjectService;
 
 @RestController
 @RequestMapping("/portfolio")
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "http://localhost:5173")
+
 public class ProjectController {
 	
 	@Autowired
